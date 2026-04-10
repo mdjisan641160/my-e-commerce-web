@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/my-e-commerce-web/sw.js', { scope: '/my-e-commerce-web/' })})}
